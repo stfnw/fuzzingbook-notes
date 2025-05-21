@@ -1,0 +1,11 @@
+target/
+02-fuzzer5
+cgi_decode
+*.gcda
+*.gcno
+*.gcov
+.mypy_cache
+testrun-*/
+crashme
+perf.data
+perf.data.old
