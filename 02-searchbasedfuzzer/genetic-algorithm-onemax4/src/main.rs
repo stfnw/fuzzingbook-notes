@@ -84,7 +84,6 @@ impl Population {
     }
 }
 
-// TODO cache fitness as Option<f64>
 #[derive(Debug, Clone)]
 struct Individual {
     genome: Vec<bool>,
