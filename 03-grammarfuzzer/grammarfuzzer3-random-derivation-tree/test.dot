@@ -1,0 +1,13 @@
+
+digraph Derivation {
+
+    node [shape=plain];
+
+    n1 [label="\<factor\>"];
+    n2 [label="symbol0"];
+    n1 -> n2;
+
+    n3 [label="factor"];
+    n1 -> n3;
+
+}
