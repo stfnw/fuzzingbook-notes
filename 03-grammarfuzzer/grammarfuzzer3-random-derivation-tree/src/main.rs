@@ -31,9 +31,9 @@ fn main() {
 
     let derivation = expand_tree_once(&mut rng, &grammar, derivation);
     let derivation = expand_tree_once(&mut rng, &grammar, derivation);
-    println!("TODO\nAAAA {}", derivation.to_dot());
+    println!("{}", derivation.to_dot());
 
-    /* TODO
+    /*
     let randomtree = fuzz_tree(&mut rng, &grammar);
     println!("{:?}", randomtree);
     println!("{}", randomtree.all_leafs());
