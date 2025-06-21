@@ -1,0 +1,429 @@
+digraph DerivationTree {
+
+    node [shape=plain];
+
+    n1 [label="\<start\>"];
+    n2 [label="\<json\>"];
+    n1 -> n2;
+
+    n3 [label="\<element\>"];
+    n2 -> n3;
+
+    n4 [label="\<ws\>"];
+    n3 -> n4;
+
+    n5 [label="\<value\>"];
+    n3 -> n5;
+
+    n6 [label="\<ws\>"];
+    n3 -> n6;
+
+    n7 [label="\"\""];
+    n4 -> n7;
+
+    n8 [label="\<number\>"];
+    n5 -> n8;
+
+    n9 [label="\"_\""];
+    n6 -> n9;
+
+    n10 [label="\<integer\>"];
+    n8 -> n10;
+
+    n11 [label="\<fraction\>"];
+    n8 -> n11;
+
+    n12 [label="\<exponent\>"];
+    n8 -> n12;
+
+    n13 [label="\<onenine\>"];
+    n10 -> n13;
+
+    n14 [label="\<digits\>"];
+    n10 -> n14;
+
+    n15 [label="\".\""];
+    n11 -> n15;
+
+    n16 [label="\<digits\>"];
+    n11 -> n16;
+
+    n17 [label="\"e\""];
+    n12 -> n17;
+
+    n18 [label="\<sign\>"];
+    n12 -> n18;
+
+    n19 [label="\<digits\>"];
+    n12 -> n19;
+
+    n20 [label="\"3\""];
+    n13 -> n20;
+
+    n21 [label="\<digit\>"];
+    n14 -> n21;
+
+    n22 [label="\<digits\>"];
+    n14 -> n22;
+
+    n23 [label="\<digit\>"];
+    n16 -> n23;
+
+    n24 [label="\<digits\>"];
+    n16 -> n24;
+
+    n25 [label="\"\""];
+    n18 -> n25;
+
+    n26 [label="\<digit\>"];
+    n19 -> n26;
+
+    n27 [label="\<digits\>"];
+    n19 -> n27;
+
+    n28 [label="\<onenine\>"];
+    n21 -> n28;
+
+    n29 [label="\<digit\>"];
+    n22 -> n29;
+
+    n30 [label="\<digits\>"];
+    n22 -> n30;
+
+    n31 [label="\<onenine\>"];
+    n23 -> n31;
+
+    n32 [label="\<digit\>"];
+    n24 -> n32;
+
+    n33 [label="\<digits\>"];
+    n24 -> n33;
+
+    n34 [label="\<onenine\>"];
+    n26 -> n34;
+
+    n35 [label="\<digit\>"];
+    n27 -> n35;
+
+    n36 [label="\<digits\>"];
+    n27 -> n36;
+
+    n37 [label="\"3\""];
+    n28 -> n37;
+
+    n38 [label="\<onenine\>"];
+    n29 -> n38;
+
+    n39 [label="\<digit\>"];
+    n30 -> n39;
+
+    n40 [label="\<digits\>"];
+    n30 -> n40;
+
+    n41 [label="\"4\""];
+    n31 -> n41;
+
+    n42 [label="\<onenine\>"];
+    n32 -> n42;
+
+    n43 [label="\<digit\>"];
+    n33 -> n43;
+
+    n44 [label="\<digits\>"];
+    n33 -> n44;
+
+    n45 [label="\"2\""];
+    n34 -> n45;
+
+    n46 [label="\<onenine\>"];
+    n35 -> n46;
+
+    n47 [label="\<digit\>"];
+    n36 -> n47;
+
+    n48 [label="\<digits\>"];
+    n36 -> n48;
+
+    n49 [label="\"8\""];
+    n38 -> n49;
+
+    n50 [label="\<onenine\>"];
+    n39 -> n50;
+
+    n51 [label="\<digit\>"];
+    n40 -> n51;
+
+    n52 [label="\<digits\>"];
+    n40 -> n52;
+
+    n53 [label="\"2\""];
+    n42 -> n53;
+
+    n54 [label="\<onenine\>"];
+    n43 -> n54;
+
+    n55 [label="\<digit\>"];
+    n44 -> n55;
+
+    n56 [label="\<digits\>"];
+    n44 -> n56;
+
+    n57 [label="\"9\""];
+    n46 -> n57;
+
+    n58 [label="\<onenine\>"];
+    n47 -> n58;
+
+    n59 [label="\<digit\>"];
+    n48 -> n59;
+
+    n60 [label="\<digits\>"];
+    n48 -> n60;
+
+    n61 [label="\"6\""];
+    n50 -> n61;
+
+    n62 [label="\<onenine\>"];
+    n51 -> n62;
+
+    n63 [label="\<digit\>"];
+    n52 -> n63;
+
+    n64 [label="\<digits\>"];
+    n52 -> n64;
+
+    n65 [label="\"1\""];
+    n54 -> n65;
+
+    n66 [label="\<onenine\>"];
+    n55 -> n66;
+
+    n67 [label="\<digit\>"];
+    n56 -> n67;
+
+    n68 [label="\<digits\>"];
+    n56 -> n68;
+
+    n69 [label="\"5\""];
+    n58 -> n69;
+
+    n70 [label="\<onenine\>"];
+    n59 -> n70;
+
+    n71 [label="\<digit\>"];
+    n60 -> n71;
+
+    n72 [label="\<digits\>"];
+    n60 -> n72;
+
+    n73 [label="\"8\""];
+    n62 -> n73;
+
+    n74 [label="\<onenine\>"];
+    n63 -> n74;
+
+    n75 [label="\<digit\>"];
+    n64 -> n75;
+
+    n76 [label="\<digits\>"];
+    n64 -> n76;
+
+    n77 [label="\"4\""];
+    n66 -> n77;
+
+    n78 [label="\<onenine\>"];
+    n67 -> n78;
+
+    n79 [label="\<digit\>"];
+    n68 -> n79;
+
+    n80 [label="\<digits\>"];
+    n68 -> n80;
+
+    n81 [label="\"9\""];
+    n70 -> n81;
+
+    n82 [label="\<onenine\>"];
+    n71 -> n82;
+
+    n83 [label="\<digit\>"];
+    n72 -> n83;
+
+    n84 [label="\<digits\>"];
+    n72 -> n84;
+
+    n85 [label="\"7\""];
+    n74 -> n85;
+
+    n86 [label="\<onenine\>"];
+    n75 -> n86;
+
+    n87 [label="\<digit\>"];
+    n76 -> n87;
+
+    n88 [label="\<digits\>"];
+    n76 -> n88;
+
+    n89 [label="\"7\""];
+    n78 -> n89;
+
+    n90 [label="\<onenine\>"];
+    n79 -> n90;
+
+    n91 [label="\<digit\>"];
+    n80 -> n91;
+
+    n92 [label="\<digits\>"];
+    n80 -> n92;
+
+    n93 [label="\"4\""];
+    n82 -> n93;
+
+    n94 [label="\"0\""];
+    n83 -> n94;
+
+    n95 [label="\<digit\>"];
+    n84 -> n95;
+
+    n96 [label="\<digits\>"];
+    n84 -> n96;
+
+    n97 [label="\"1\""];
+    n86 -> n97;
+
+    n98 [label="\<onenine\>"];
+    n87 -> n98;
+
+    n99 [label="\<digit\>"];
+    n88 -> n99;
+
+    n100 [label="\<digits\>"];
+    n88 -> n100;
+
+    n101 [label="\"7\""];
+    n90 -> n101;
+
+    n102 [label="\<onenine\>"];
+    n91 -> n102;
+
+    n103 [label="\<digit\>"];
+    n92 -> n103;
+
+    n104 [label="\<digits\>"];
+    n92 -> n104;
+
+    n105 [label="\<onenine\>"];
+    n95 -> n105;
+
+    n106 [label="\<digit\>"];
+    n96 -> n106;
+
+    n107 [label="\<digits\>"];
+    n96 -> n107;
+
+    n108 [label="\"1\""];
+    n98 -> n108;
+
+    n109 [label="\<onenine\>"];
+    n99 -> n109;
+
+    n110 [label="\<digit\>"];
+    n100 -> n110;
+
+    n111 [label="\<digits\>"];
+    n100 -> n111;
+
+    n112 [label="\"1\""];
+    n102 -> n112;
+
+    n113 [label="\<onenine\>"];
+    n103 -> n113;
+
+    n114 [label="\<digit\>"];
+    n104 -> n114;
+
+    n115 [label="\"9\""];
+    n105 -> n115;
+
+    n116 [label="\<onenine\>"];
+    n106 -> n116;
+
+    n117 [label="\<digit\>"];
+    n107 -> n117;
+
+    n118 [label="\"3\""];
+    n109 -> n118;
+
+    n119 [label="\<onenine\>"];
+    n110 -> n119;
+
+    n120 [label="\<digit\>"];
+    n111 -> n120;
+
+    n121 [label="\<digits\>"];
+    n111 -> n121;
+
+    n122 [label="\"4\""];
+    n113 -> n122;
+
+    n123 [label="\<onenine\>"];
+    n114 -> n123;
+
+    n124 [label="\"4\""];
+    n116 -> n124;
+
+    n125 [label="\"0\""];
+    n117 -> n125;
+
+    n126 [label="\"6\""];
+    n119 -> n126;
+
+    n127 [label="\<onenine\>"];
+    n120 -> n127;
+
+    n128 [label="\<digit\>"];
+    n121 -> n128;
+
+    n129 [label="\<digits\>"];
+    n121 -> n129;
+
+    n130 [label="\"7\""];
+    n123 -> n130;
+
+    n131 [label="\"4\""];
+    n127 -> n131;
+
+    n132 [label="\<onenine\>"];
+    n128 -> n132;
+
+    n133 [label="\<digit\>"];
+    n129 -> n133;
+
+    n134 [label="\<digits\>"];
+    n129 -> n134;
+
+    n135 [label="\"1\""];
+    n132 -> n135;
+
+    n136 [label="\<onenine\>"];
+    n133 -> n136;
+
+    n137 [label="\<digit\>"];
+    n134 -> n137;
+
+    n138 [label="\<digits\>"];
+    n134 -> n138;
+
+    n139 [label="\"6\""];
+    n136 -> n139;
+
+    n140 [label="\"0\""];
+    n137 -> n140;
+
+    n141 [label="\<digit\>"];
+    n138 -> n141;
+
+    n142 [label="\"0\""];
+    n141 -> n142;
+
+}

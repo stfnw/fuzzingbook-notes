@@ -1,0 +1,54 @@
+digraph DerivationTree {
+
+    node [shape=plain];
+
+    n1 [label="\<start\>"];
+    n2 [label="\<title\>"];
+    n1 -> n2;
+
+    n3 [label="\<topic\>"];
+    n2 -> n3;
+
+    n4 [label="\":_\""];
+    n2 -> n4;
+
+    n5 [label="\<subtopic\>"];
+    n2 -> n5;
+
+    n6 [label="\<fuzzing-prefix\>"];
+    n3 -> n6;
+
+    n7 [label="\"Fuzzing\""];
+    n3 -> n7;
+
+    n8 [label="\<subtopic-main\>"];
+    n5 -> n8;
+
+    n9 [label="\<subtopic-suffix\>"];
+    n5 -> n9;
+
+    n10 [label="\"\""];
+    n6 -> n10;
+
+    n11 [label="\"Principles\,_Techniques_and_Tools\""];
+    n8 -> n11;
+
+    n12 [label="\"_for_\""];
+    n9 -> n12;
+
+    n13 [label="\<software-property\>"];
+    n9 -> n13;
+
+    n14 [label="\"_and_\""];
+    n9 -> n14;
+
+    n15 [label="\<software-property\>"];
+    n9 -> n15;
+
+    n16 [label="\"Security\""];
+    n13 -> n16;
+
+    n17 [label="\"Reliability\""];
+    n15 -> n17;
+
+}
